@@ -43,6 +43,10 @@ usage instructions, and additional features you may find in a calculator.
 - **Unresponsive keys**: Check for debris or dust under the keys and clean if necessary.
 - **Incorrect results**: Ensure that the calculator is set to the correct mode (degree/radian, decimal places).
 
+See A look Of Calculator : --
+![image](https://github.com/Shubh12-577/Calculator/assets/86088965/ee2325ba-bd82-495d-afb1-beb66766f009)
+
+
 ## Conclusion
 Calculators are essential tools for performing a wide range of mathematical operations quickly and accurately.
 Whether you're using a basic model or an advanced scientific or graphing calculator,
