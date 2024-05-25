@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="calculator">
-        
-            <div class="display">
-                <div id="display">0</div>
-       
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="calculator">
+        <h1>Calculator</h1>
+        <div class="display-screen">
+          <input type="text" class="user-input" readonly placeholder="0" />
         </div>
-        <div class="buttons">
-            <button class="btn" onclick="appendNumber(7)">7</button>
-            <button class="btn" onclick="appendNumber(8)">8</button>
-            <button class="btn" onclick="appendNumber(9)">9</button>
-            <button class="btn operators" onclick="deleteNumber()">DEL</button>
-            <button class="btn" onclick="appendNumber(4)">4</button>
-            <button class="btn" onclick="appendNumber(5)">5</button>
-            <button class="btn" onclick="appendNumber(6)">6</button>
-            <button class="btn operator" onclick="appendOperator('+')">+</button>
-            <button class="btn" onclick="appendNumber(1)">1</button>
-            <button class="btn" onclick="appendNumber(2)">2</button>
-            <button class="btn" onclick="appendNumber(3)">3</button>
-            <button class="btn operator" onclick="appendOperator('-')">-</button>
-            <button class="btn" onclick="appendNumber('.')">.</button>
-            <button class="btn" onclick="appendNumber(0)">0</button>
-            <button class="btn operator" onclick="appendOperator('/')">/</button>
-            <button class="btn operator" onclick="appendOperator('*')">x</button>
-            <button class="btn reset" onclick="resetCalculator()">RESET</button>
-            <button class="btn equal" onclick="calculateResult()">=</button>
+        <div class="keypad">
+          <div class="row1 row">
+            <div class="key">7</div>
+            <div class="key">8</div>
+            <div class="key">9</div>
+            <div class="delete-key">DEL</div>
+          </div>
+          <div class="row2 row">
+            <div class="key">4</div>
+            <div class="key">5</div>
+            <div class="key">6</div>
+            <div class="key">+</div>
+          </div>
+          <div class="row3 row">
+            <div class="key">1</div>
+            <div class="key">2</div>
+            <div class="key">3</div>
+            <div class="key">-</div>
+          </div>
+          <div class="row4 row">
+            <div class="key">.</div>
+            <div class="key">0</div>
+            <div class="key">/</div>
+            <div class="key">x</div>
+          </div>
+          <div class="row5 row">
+            <div class="reset-key">RESET</div>
+            <div class="answer-key">=</div>
+          </div>
         </div>
-    </div>
+      </div>
+    </main>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
